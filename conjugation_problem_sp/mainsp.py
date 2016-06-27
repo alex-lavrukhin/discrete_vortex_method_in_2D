@@ -11,6 +11,7 @@ Hy=1
 Py=1
 Phi1=-0.25/sp.pi*sp.log((x0-y0)**2+(x1-y1)**2)-0.25/sp.pi*sp.log((x0-y0)**2+(x1+y1)**2)
 Psi2=0.25/sp.pi*sp.log((x0-y0)**2+(x1-y1)**2)-0.25/sp.pi*sp.log((x0-y0)**2+(x1+y1)**2)
+
 n=800
 q=np.array([np.pi,np.pi])
 z=np.array([[0.0,3.0],[3.0,2.0]],dtype='d')
